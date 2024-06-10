@@ -1,0 +1,17 @@
+body{
+    font-size: 22px;
+}
+p{
+    color: green;
+}
+.grey{
+    color: grey;
+}
+h1 , h2 {
+    color: blue;
+}
+
+.highlighted{
+    background-color: gold;
+    text-transform: uppercase;
+}
