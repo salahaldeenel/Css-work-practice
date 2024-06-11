@@ -1,0 +1,46 @@
+/*header{
+    width:80%;
+    this will make the h1 element 40 percent
+    since it is going to go to the parent element
+    and change its value to 80 then go to the
+    h1 element and set it to 50 percent
+    of whatever is set before
+
+}*/
+
+
+
+h1{
+     border: 4px dashed black;
+     width: 50%;
+     font-size: 3rem;
+     padding: 0.5em;
+}
+ /*A good example of how we can use this 
+ if we had a button we can set the padding
+ to something and then add text at a certin
+ point and size
+ */
+main{
+    font-size: 2rem;
+}
+p{
+   /* font-size: 2rem;*/
+   font-size: 2em;
+   width:40ch;
+}
+/*this will double the element size 
+relative to the root element
+*/
+
+/*this wont do anything since the root element
+isnt main
+*/
+
+
+
+/*  default size of precenteges is 100 
+we try not to assign values to the font size
+this is because it does not allow the user
+to choose there own custom size font
+*/
