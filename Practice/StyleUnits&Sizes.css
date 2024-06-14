@@ -28,6 +28,10 @@ p{
    /* font-size: 2rem;*/
    font-size: 2em;
    width:40ch;
+    /* this sets the width to 40 characters
+    meaning it can only have 40 charachters before
+    breaking
+    */
 }
 /*this will double the element size 
 relative to the root element
