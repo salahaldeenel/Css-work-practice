@@ -1,0 +1,15 @@
+*{
+    margin:0;
+ 
+}
+ul{
+    text-align: center;
+    list-style-position: inside;
+    /* to add an image instead of one the defualt
+    use list-style-image
+    */
+}
+/* to specify an unorderlist child in a certin index */
+ul li:nth-child(2){
+    color:red;
+}
